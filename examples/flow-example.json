@@ -1,0 +1,11 @@
+{
+  "exchange": {
+    "method": "POST",
+    "url": "https://example.com/upload",
+    "request_headers": {"Content-Type": "multipart/form-data; boundary=xyz"},
+    "request_body": "--xyz\r\n...",
+    "status": 200,
+    "response_headers": {"Content-Type": "text/html"},
+    "response_body": "<html>Upload success: shell.php.jpg</html>"
+  }
+}
